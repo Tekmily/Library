@@ -17,7 +17,8 @@ public class BooksLogin {
         if (question=='Y') {
             LoginPanel();
         }else {
-            System.out.println("bu iş bende");
+            BooksUserRecord.userrecordPanel();
+            LoginPanel();
 
 
         }
